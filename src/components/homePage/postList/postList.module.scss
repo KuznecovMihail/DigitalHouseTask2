@@ -1,0 +1,39 @@
+.posts {
+  // height: 75vh;
+  display: flex;
+  justify-content: center;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  &__item {
+    max-width: 47%;
+    margin-top: 50px;
+    background: #e1dcdc;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__null {
+      max-width: 100%;
+      margin-top: 50px;
+      background: #e1dcdc;
+      padding: 10px 15px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 50px;
+    }
+  }
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__subtitle {
+    margin-top: 10px;
+    text-align: justify;
+  }
+}

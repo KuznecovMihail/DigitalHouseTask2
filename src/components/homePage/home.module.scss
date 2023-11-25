@@ -1,0 +1,59 @@
+.homepage {
+  height: 100vh;
+  &__title {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 50px;
+  }
+  &__input {
+    position: relative;
+    margin-top: 30px;
+    &__item {
+      color: #000;
+      background: #e1dcdc;
+      border: none;
+      padding: 5px 30px 5px 10px;
+      border-radius: 5px;
+      position: absolute;
+      right: 0;
+    }
+    &__icon {
+      position: absolute;
+      right: 10px;
+      top: 9px;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  li {
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+
+    &:hover {
+      color: #e1dcdc;
+    }
+  }
+}
+
+.active {
+  color: #e1dcdc;
+}
+
+.break {
+  margin-right: 5px;
+}
+
+.page {
+  cursor: pointer;
+}

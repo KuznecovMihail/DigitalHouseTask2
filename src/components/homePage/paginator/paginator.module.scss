@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  li {
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+}
+
+.active {
+  color: #007bff;
+}
+
+.break {
+  margin-right: 5px;
+}
+
+.page {
+  cursor: pointer;
+}
